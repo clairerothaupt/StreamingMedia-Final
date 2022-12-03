@@ -1,0 +1,115 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+  }
+  html {
+    background-color:#020659;
+  }
+  body {
+    min-width:834px;
+    color:white;
+    font-family: Optima, sans-serif;
+  }
+  h1 {
+    font-size: 22px;
+    line-height:2em;
+  }
+  h1, h2, h3 {
+    font-weight:bold;
+    text-transform: uppercase;
+  }
+  h2, h3 {
+    font-size: 20px;
+    color: #590242;
+    line-height: 2em;
+    padding: 50px;
+  }
+  header, footer {
+    width:100%;
+    background-color:#1E88E5;
+  }
+  nav {
+    background-color:#1E88E5;
+    position:sticky;
+    top:0;
+    z-index:10;
+    width:100%;
+    text-align:center;
+  }
+  nav li {
+    display: inline-block;
+    list-style:none;
+    padding:20px 20px;
+    padding-left: 100px;
+  }
+  nav a {
+    text-decoration:none;
+    color:#E3F2FD;
+    text-transform:uppercase;
+    font-weight:bold;
+  }
+  nav a:hover {
+    background-color:#590242;
+  }
+  section {
+    line-height:1.75em;
+  }
+  #MuzakMaker {
+    background-color:white;
+  }
+  #MuzakMaker h2{
+    font-family: Roboto;
+  }
+  img {
+    padding: 50px;
+  }
+  #Trending {
+    display:grid;
+    grid-template-columns:2fr;
+  }
+  #Trending h3 {
+    grid-column: 1/4;
+  }
+  h2, p {
+    color: white;
+    padding: 50px;
+  }
+  audio {
+    position: absolute;
+    overflow-x:auto;
+    overflow-y:hidden;
+  }
+audio::-webkit-media-controls-mute-button {
+    border-radius: 50%;
+    background-color:white;
+}
+audio::-webkit-media-controls-play-button {
+    border-radius: 50%;
+    background-color:white;
+}
+audio::-webkit-media-controls-enclosure {
+    background:rgba(255, 255, 255, 0.5)
+}
+figcaption {
+    color:#590242;
+    line-height:2em;
+    text-align: center;
+    position:relative;
+    bottom:40px;
+    background-color: rgba(255, 255, 255, 0.514);
+  }
+#music, #cure {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#music {
+    display:grid;
+    grid-template-columns:2fr;
+  }
+#music {
+    grid-column: 1/4;
+  }
+  footer {
+    border-top:2px solid #444444;
+  }
